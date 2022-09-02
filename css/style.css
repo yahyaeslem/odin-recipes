@@ -1,0 +1,112 @@
+body{
+    
+    background-color: azure;
+    
+    
+    }
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center
+
+}
+button {
+    border-color: #dfd2c1;
+    border-width: 5px;
+    border-left-width: 4px;
+    background-color: #e0c6a4;
+    cursor: pointer;
+   
+    
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  font-weight: 700px;
+  background-image: linear-gradient(to left, #501f16, #bd863f);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+
+}
+
+.img{
+    height: 350px;
+    width: 270px;  
+    border: 3px solid #501f16,;
+    border-radius: 20px;
+    display: block;
+    margin: 0 0.5rem;
+    }
+
+  #center {
+    text-align: center
+  }
+
+ 
+  h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+  
+  background-image: linear-gradient(to left, #501f16, #bd863f);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 0 0.6rem;
+  
+  }
+
+ ul {
+      list-style-type: none;
+      margin-left: 0;
+      padding-right: 0;
+      
+    }
+  
+  
+  li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+  li.circle-checkmark::before {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    top: 2px; 
+    border: solid 8px #f9dd94;
+    border-radius: 8px;
+  }
+    .text{
+      font-size: 25px;
+      font-family: fantasy;
+      border-style: dotted;
+      border-color:rgb(142, 209, 184);
+      color-scheme: rgb(209, 209, 218);
+      
+      background-color: rgb(229, 235, 233);
+      margin: auto;
+    }
+    li.circle-checkmark::after {
+      content: ""; 
+      position: absolute; 
+      left: 5px;
+      top: 5px;
+      width: 3px;
+      height: 6px;
+      border: solid #7eb4e2;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      text-align: center
+    }
+h2{
+  color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 95px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: left; text-shadow: 0 1px 1px #fff;  
+
+}
+
+ 
